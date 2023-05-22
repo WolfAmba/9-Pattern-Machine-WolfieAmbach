@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* make grid of boxes
+   make the input boxes for numbers as well as color       
+   selector. 
+   */
+
+#numberbox1 {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: #c2ffdc;
+}
+
+#numberbox2{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: #c2ffdc;
+}
+#yourcolor{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background-color: #c2ffdc;
+}
+
+.box{
+  max-height: 100px;
+  max-width: 100px;
+  width: 5%;
+  aspect-ratio: 1/1;
+  /*border: 1px solid black;*/
+  
+}
+
+.row{
+  display: flex;
+}
